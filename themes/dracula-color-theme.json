@@ -8,7 +8,6 @@
 		"editor.inactiveSelectionBackground": "#3a3d41",
 		"editor.selectionHighlightBackground": "#add6ff26",
 		"editorIndentGuide.background": "#404040",
-		
 		"editorError.foreground": "#903332",
 		"editorWarning.foreground": "#797234",
 		"editorInfo.foreground": "#53975a"
@@ -48,7 +47,7 @@
 			"scope": "constant.language",
 			"settings": {
 				"foreground": "#CC7832",
-				"fontStyle": "bold"
+				"fontStyle": ""
 			}
 		},
 		{
@@ -209,9 +208,17 @@
 			}
 		},
 		{
+			"scope": "support.variable.magic",
+			"settings": {
+				"foreground": "#af2ea0",
+				"fontStyle": ""
+			}
+		},
+		{
 			"scope": "meta.class.inheritance",
 			"settings": {
-				"foreground": "#d4d4d4ff"
+				"foreground": "#d4d4d4ff",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -224,7 +231,7 @@
 			"scope": "storage.type",
 			"settings": {
 				"foreground": "#CC7832",
-				"fontStyle": "bold"
+				"fontStyle": ""
 			}
 		},
 		{
@@ -240,7 +247,8 @@
 				"string storage.type.string"
 			],
 			"settings": {
-				"foreground": "#00795E"
+				"foreground": "#6A8759",
+				"fontStyle": ""
 			}
 		},
 		{
@@ -250,7 +258,7 @@
 			],
 			"settings": {
 				"foreground": "#6A8759",
-				"fontStyle": "bold"
+				"fontStyle": ""
 			}
 		},
 		{
@@ -310,7 +318,7 @@
 				"entity.name.function.decorator support.type.python"
 			],
 			"settings": {
-				"foreground": "#BBB529",
+				"foreground": "#ccbe2c",
 				"fontStyle": ""
 			}
 		},
@@ -366,14 +374,24 @@
 				"keyword.operator.logical.python"
 			],
 			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#CC7832"
+				"foreground": "#CC7832",
+				"fontStyle": ""
 			}
 		},
 		{
 			"scope": "keyword.other.unit",
 			"settings": {
 				"foreground": "#b5cea8"
+			}
+		},
+		{
+			"scope": [
+				"punctuation.separator.element",
+				"punctuation.separator.arguments"
+			],
+			"settings": {
+				"foreground": "#CC7832",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -442,7 +460,15 @@
 				"support.constant.handlebars"
 			],
 			"settings": {
-				"fontStyle": "bold"
+				"foreground": "#ECBE69",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Constants",
+			"scope": "constant.other.caps",
+			"settings": {
+				"foreground": "#b078b5",
 			}
 		},
 		{
@@ -479,7 +505,7 @@
 				"storage.type.primitive.groovy"
 			],
 			"settings": {
-				"foreground": "#A9B7C6"
+				"foreground": "#A9B7C6",
 			}
 		},
 		{
@@ -491,7 +517,7 @@
 				"entity.name.type"
 			],
 			"settings": {
-				"fontStyle": "bold",
+				"fontStyle": "",
 				"foreground": "#A9B7C6"
 			}
 		},
@@ -522,7 +548,7 @@
 			"scope": "keyword.control",
 			"settings": {
 				"foreground": "#CC7832",
-				"fontStyle": "bold"
+				"fontStyle": ""
 			}
 		},
 		{
