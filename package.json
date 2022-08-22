@@ -4,7 +4,7 @@
 	"description": "A fork of \"Darcula Theme inspired by IntelliJ\" adapted specially for Python",
 	"version": "0.2.4",
 	"license": "MIT",
-	"publisher": "TheJoeSmo",
+	"publisher": "joesmo12",
 	"preview": true,
 	"extensionDependencies": [
 		"magicstack.magicpython"
