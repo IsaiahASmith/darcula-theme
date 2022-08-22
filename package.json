@@ -2,12 +2,12 @@
 	"name": "dracula-color-theme-pycharm",
 	"displayName": "Darcula MagicPython Adapted",
 	"description": "A fork of \"Darcula Theme inspired by IntelliJ\" adapted specially for Python",
-	"version": "0.2.4",
+	"version": "0.3.0",
 	"license": "MIT",
 	"publisher": "joesmo12",
 	"preview": true,
 	"extensionDependencies": [
-		"magicstack.magicpython"
+		"joesmo12.magicpython310"
 	],
 	"repository": "https://github.com/TheJoeSmo/darcula-theme",
 	"icon": "images/icon.png",
