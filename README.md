@@ -12,7 +12,7 @@ _Snippet taken from [PythonVSCode](https://github.com/DonJayamanne/pythonVSCode)
 
 ## Contributing
 
-If you'd like to contribute to this theme, please post an issue or PR on [GitHub](https://github.com/danields761/vs-code-darcula20-theme).
+If you'd like to contribute to this theme, please post an issue or PR on [GitHub](https://github.com/TheJoeSmo/darcula-theme).
 
 ## License
 

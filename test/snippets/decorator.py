@@ -14,7 +14,7 @@ class A:
         pass
 
     @argued_decorator(int, 100, 'test', enumerate)
-    def meth2(cls):
+    def meth2(cls, test=5):
         pass
 
     @staticmethod
@@ -23,7 +23,7 @@ class A:
 
     @classmethod
     def test(cls):
-        pass
+        meth2(test=5)
 
 
 @decorator
