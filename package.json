@@ -1,5 +1,5 @@
 {
-	"name": "dracula-theme-from-intellij-pythoned",
+	"name": "dracula-color-theme-pycharm",
 	"displayName": "Darcula MagicPython Adapted",
 	"description": "A fork of \"Darcula Theme inspired by IntelliJ\" adapted specially for Python",
 	"version": "0.2.4",
@@ -25,5 +25,9 @@
 				"path": "./themes/dracula-color-theme.json"
 			}
 		]
+	},
+	"dependencies": {
+		"node": "^16.17.0",
+		"vsce": "^2.10.2"
 	}
 }
