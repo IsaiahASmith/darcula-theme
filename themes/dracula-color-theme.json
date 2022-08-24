@@ -103,7 +103,7 @@
 		{
 			"scope": "invalid",
 			"settings": {
-				"foreground": "#f44747"
+				"foreground": "#903332"
 			}
 		},
 		{
@@ -113,13 +113,10 @@
 			}
 		},
 		{
-			"scope": "markup.bold",
-			"settings": {
-				"foreground": "#A9B7C6"
-			}
-		},
-		{
-			"scope": "markup.heading",
+			"scope": [
+				"markup.bold",
+				"markup.heading"
+			],
 			"settings": {
 				"foreground": "#A9B7C6"
 			}
@@ -230,31 +227,19 @@
 			}
 		},
 		{
-			"scope": "storage.type",
+			"scope": [
+				"storage.type",
+				"storage.modifier"
+			],
 			"settings": {
 				"foreground": "#CC7832",
 				"fontStyle": ""
-			}
-		},
-		{
-			"scope": "storage.modifier",
-			"settings": {
-				"foreground": "#CC7832",
-				"fontStyle": "bold"
 			}
 		},
 		{
 			"scope": [
 				"string",
-				"string storage.type.string"
-			],
-			"settings": {
-				"foreground": "#6A8759",
-				"fontStyle": ""
-			}
-		},
-		{
-			"scope": [
+				"string storage.type.string",
 				"string.quoted.docstring.multi",
 				"string.quoted.docstring.multi storage.type.string"
 			],
@@ -287,16 +272,10 @@
 				"support.type.property-name",
 				"variable.css",
 				"variable.scss",
-				"variable.other.less"
-			],
-			"settings": {
-				"foreground": "#8f5aac"
-			}
-		},
-		{
-			"scope": [
+				"variable.other.less",
 				"variable.other.property",
-				"support.variable.property.dom"
+				"support.variable.property.dom",
+				"variable.parameter.function.language.special"
 			],
 			"settings": {
 				"foreground": "#8f5aac"
@@ -308,7 +287,11 @@
 				"variable.other.object.property",
 				"support.class.dom",
 				"meta.function-call",
-				"entity.name.type.module"
+				"entity.name.type.module",
+				"variable.other.readwrite",
+				"variable.parameter",
+				"variable.other.readwrite.alias",
+				"punctuation.separator.arguments.python"
 			],
 			"settings": {
 				"foreground": "#A9B7C6"
@@ -325,40 +308,18 @@
 			}
 		},
 		{
-			"scope": [
-				"variable.other.readwrite",
-				"variable.parameter",
-				"variable.other.readwrite.alias"
-			],
-			"settings": {
-				"foreground": "#A9B7C6"
-			}
-		},
-		{
-			"scope": [
-				"variable.parameter.function.language.special"
-			],
-			"settings": {
-				"foreground": "#8f5aac"
-			}
-		},
-		{
 			"scope": "variable.parameter.function-call.python",
 			"settings": {
 				"foreground": "#A33F2A"
 			}
 		},
 		{
-			"scope": "keyword",
+			"scope": [
+				"keyword",
+				"keyword.control"
+			],
 			"settings": {
 				"foreground": "#CC7832"
-			}
-		},
-		{
-			"scope": "keyword.control",
-			"settings": {
-				"foreground": "#CC7832",
-				"fontStyle": "bold"
 			}
 		},
 		{
