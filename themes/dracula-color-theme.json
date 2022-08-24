@@ -3,14 +3,16 @@
 	"colors": {
 		"list.dropBackground": "#474B4D",
 		"editor.background": "#2B2B2B",
+		"editorInlayHint.background": "#00000000",
 		"editor.foreground": "#A9B7C6",
+		"editorInlayHint.foreground": "#a99db0",
 		"editor.lineHighlightBackground": "#323232",
 		"editor.inactiveSelectionBackground": "#3a3d41",
 		"editor.selectionHighlightBackground": "#add6ff26",
 		"editorIndentGuide.background": "#404040",
 		"editorError.foreground": "#903332",
 		"editorWarning.foreground": "#797234",
-		"editorInfo.foreground": "#53975a"
+		"editorInfo.foreground": "#53975a",
 	},
 	"tokenColors": [
 		{
